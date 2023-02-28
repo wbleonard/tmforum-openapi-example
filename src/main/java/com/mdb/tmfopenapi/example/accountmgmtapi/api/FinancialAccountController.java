@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.mdb.tmfopenapi.example.accountmgmtapi.api.FinancialAccountApi;
 import com.mdb.tmfopenapi.example.accountmgmtapi.api.model.FinancialAccount;
 import com.mdb.tmfopenapi.example.accountmgmtapi.api.model.FinancialAccountCreate;
 import com.mdb.tmfopenapi.example.accountmgmtapi.api.model.FinancialAccountUpdate;
