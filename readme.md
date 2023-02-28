@@ -12,8 +12,8 @@ The persistence was implemented exemplarily for `FinancialAccounts`, which is pa
 
 > An account of money owed by a party to another entity in exchange for goods or services that have been delivered or used. A financial (account receivable account/account payable) aggregates the amounts of one or more party accounts (billing or settlement) owned by a given party. It is a specialization of entity Account.
 
-###Lifecycle
-The Financial Account lifecycle is tracked by the 'state' attribute.
+### Lifecycle
+The Financial Account lifecycle is tracked by the `state` attribute.
 Typical lifecycle values are: `Defined`, `Active`, `Suspended`, `pending Update`, `pending Closed`, `Closed`.
 Note that an implementation of the specification may enrich the list of states depicted in the diagram.
 The state machine specifying the typical state change transitions is provided below.
