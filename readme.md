@@ -17,6 +17,10 @@ The Financial Account lifecycle is tracked by the `state` attribute.
 Typical lifecycle values are: `Defined`, `Active`, `Suspended`, `pending Update`, `pending Closed`, `Closed`.
 Note that an implementation of the specification may enrich the list of states depicted in the diagram.
 The state machine specifying the typical state change transitions is provided below.
+com.mdb.tmfopenapi.example.accountmgmtapi.dao
+### Implementation
+You'll find the MongoDB integration with the API in [FinancialAccountDao.java](./src/main/java/com/mdb/tmfopenapi/example/accountmgmtapi/dao/FinancialAccountDao.java).
+
 
 ## How to use this Repo
 First, update the `application.yml`. The only property that needs to be updated is `db.connectionString`.  
